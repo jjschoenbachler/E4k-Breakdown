@@ -1,0 +1,50 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="1234 "/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/goodgamestudios/extension/ane/AirGoodGameStudiosExtension" mod="1694008663000">
+                <def id="com.goodgamestudios.extension.ane:AirGoodGameStudiosExtension"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="e"/>
+                <dep id="com.goodgamestudios.extension.ane:AirGoodGameStudiosExtensionEvent" type="e"/>
+                <dep id="com.goodgamestudios.extension.ane:MobileCarrierInfo" type="e"/>
+                <dep id="com.goodgamestudios.extension.ane:NativeMethods" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.geom:Rectangle" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/goodgamestudios/extension/ane/AirGoodGameStudiosExtensionEvent" mod="1694008663000">
+                <def id="com.goodgamestudios.extension.ane:AirGoodGameStudiosExtensionEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/goodgamestudios/extension/ane/MobileCarrierInfo" mod="1587374655000">
+                <def id="com.goodgamestudios.extension.ane:MobileCarrierInfo"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/goodgamestudios/extension/ane/NativeMethods" mod="1587374655000">
+                <def id="com.goodgamestudios.extension.ane:NativeMethods"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="a66813d16dcdd0c294ac1e509ed4ddff30f5cabe80af849451ed6e0b761df9b0"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

@@ -1,0 +1,34 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.ironsource.adobeair.fbaudiencenetwork</id>
+    <versionNumber>6.2.0</versionNumber>
+    <platforms> 
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>fbaudiencenetworksdk.jar</nativeLibrary>
+                <initializer>com.ironsource.adobeair.AdColony</initializer>
+            </applicationDeployment> 
+        </platform>
+        <platform name="Android-ARM64">
+            <applicationDeployment>
+                <nativeLibrary>fbaudiencenetworksdk.jar</nativeLibrary>
+                <initializer>com.ironsource.adobeair.AdColony</initializer>
+            </applicationDeployment> 
+        </platform>
+        <platform name="Android-x86">
+            <applicationDeployment>
+                <nativeLibrary>fbaudiencenetworksdk.jar</nativeLibrary>
+                <initializer>com.ironsource.adobeair.AdColony</initializer>
+            </applicationDeployment> 
+        </platform>
+        <platform name="iPhone-ARM"> 
+            <applicationDeployment> 
+                <nativeLibrary>libFBAudienceNetwork.a</nativeLibrary>
+                <initializer>SSAExtensionInitializer</initializer>
+            </applicationDeployment>
+        </platform>
+        
+        <platform name="default">
+            <applicationDeployment/>
+        </platform>
+    </platforms> 
+</extension>

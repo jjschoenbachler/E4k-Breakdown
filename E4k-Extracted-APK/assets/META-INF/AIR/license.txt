@@ -1,0 +1,2 @@
+DevID=10c2e09d-8175-48e0-8569-873bca7d71a9
+License=8995c758c599a3c491979d9ca9a3aca0d3a5a76ea3adb4a2b7aaa8e1e9e5b5e1baaedcc0ee07

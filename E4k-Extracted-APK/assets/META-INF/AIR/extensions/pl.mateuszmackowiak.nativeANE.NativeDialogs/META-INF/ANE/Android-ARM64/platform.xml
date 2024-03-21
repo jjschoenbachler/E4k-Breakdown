@@ -1,0 +1,8 @@
+<platform xmlns="http://ns.adobe.com/air/extension/22.0">
+	<packagedResources> 
+		<packagedResource> 
+			<packageName>pl.mateuszmackowiak.nativeANE.NativeDialogs</packageName> 
+			<folderName>pl.mateuszmackowiak.nativeANE.NativeDialogs-res</folderName> 
+		</packagedResource> 
+	</packagedResources>
+</platform>

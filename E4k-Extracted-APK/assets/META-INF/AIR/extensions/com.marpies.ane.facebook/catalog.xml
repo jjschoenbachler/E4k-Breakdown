@@ -1,0 +1,520 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="1234 "/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/marpies/ane/facebook/AIRFACEBOOK_VERSION" mod="1612188190000">
+                <def id="com.marpies.ane.facebook:AIRFACEBOOK_VERSION"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/AIRFacebook" mod="1666877590000">
+                <def id="com.marpies.ane.facebook:AIRFacebook"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook:AIRFACEBOOK_VERSION" type="e"/>
+                <dep id="com.marpies.ane.facebook:AIRFacebookSettings" type="s"/>
+                <dep id="com.marpies.ane.facebook:FacebookLoginBehavior" type="e"/>
+                <dep id="com.marpies.ane.facebook:IAIRFacebook" type="i"/>
+                <dep id="com.marpies.ane.facebook.data:BasicUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ExtendedUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.games:AIRFacebookGameRequests" type="e"/>
+                <dep id="com.marpies.ane.facebook.games:IAIRFacebookGameRequests" type="s"/>
+                <dep id="com.marpies.ane.facebook.graph:AIRFacebookOpenGraph" type="e"/>
+                <dep id="com.marpies.ane.facebook.graph:IAIRFacebookOpenGraph" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookBasicUserProfileListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookCachedAccessTokenListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookDeferredAppLinkListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookExtendedUserProfileListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookLoginListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookLogoutListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookSDKInitListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookUserFriendsListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookUserProfilePictureListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.share:AIRFacebookShare" type="e"/>
+                <dep id="com.marpies.ane.facebook.share:IAIRFacebookShare" type="s"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/AIRFacebookListenerMap" mod="1612188190000">
+                <def id="com.marpies.ane.facebook:AIRFacebookListenerMap"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.utils:Dictionary" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/AIRFacebookSettings" mod="1612188190000">
+                <def id="com.marpies.ane.facebook:AIRFacebookSettings"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/BaseAIRFacebook" mod="1666877590000">
+                <def id="com.marpies.ane.facebook:BaseAIRFacebook"/>
+                <dep id="ArgumentError" type="e"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook:AIRFacebookListenerMap" type="i"/>
+                <dep id="com.marpies.ane.facebook:AIRFacebookSettings" type="s"/>
+                <dep id="com.marpies.ane.facebook:FacebookLoginBehavior" type="e"/>
+                <dep id="com.marpies.ane.facebook:IAIRFacebook" type="i"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookLinkParameter" type="e"/>
+                <dep id="com.marpies.ane.facebook.data:BasicUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ExtendedUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookBasicUserProfileEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookCachedAccessTokenEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookDeferredAppLinkEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookExtendedUserProfileEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookLoginEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookLogoutEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookUserFriendsEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookUserProfilePictureEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.games:AIRFacebookGameRequests" type="e"/>
+                <dep id="com.marpies.ane.facebook.games:IAIRFacebookGameRequests" type="s"/>
+                <dep id="com.marpies.ane.facebook.graph:AIRFacebookOpenGraph" type="e"/>
+                <dep id="com.marpies.ane.facebook.graph:IAIRFacebookOpenGraph" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookBasicUserProfileListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookCachedAccessTokenListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookDeferredAppLinkListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookExtendedUserProfileListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookLoginListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookLogoutListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookSDKInitListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookUserFriendsListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookUserProfilePictureListener" type="s"/>
+                <dep id="com.marpies.ane.facebook:ns_airfacebook_internal" type="e"/>
+                <dep id="com.marpies.ane.facebook.share:AIRFacebookShare" type="e"/>
+                <dep id="com.marpies.ane.facebook.share:IAIRFacebookShare" type="s"/>
+                <dep id="flash.display:Bitmap" type="e"/>
+                <dep id="flash.display:Loader" type="e"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:IOErrorEvent" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.net:URLRequest" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="e"/>
+            </script>
+            <script name="com/marpies/ane/facebook/FacebookLoginBehavior" mod="1666870407000">
+                <def id="com.marpies.ane.facebook:FacebookLoginBehavior"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/IAIRFacebook" mod="1666877590000">
+                <def id="com.marpies.ane.facebook:IAIRFacebook"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook:AIRFacebookSettings" type="s"/>
+                <dep id="com.marpies.ane.facebook:FacebookLoginBehavior" type="e"/>
+                <dep id="com.marpies.ane.facebook.data:BasicUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ExtendedUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.games:IAIRFacebookGameRequests" type="s"/>
+                <dep id="com.marpies.ane.facebook.graph:IAIRFacebookOpenGraph" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookBasicUserProfileListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookCachedAccessTokenListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookDeferredAppLinkListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookExtendedUserProfileListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookLoginListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookLogoutListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookSDKInitListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookUserFriendsListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookUserProfilePictureListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.share:IAIRFacebookShare" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/data/AIRFacebookGameRequest" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.data:AIRFacebookGameRequest"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookGameRequestActionType" type="e"/>
+                <dep id="com.marpies.ane.facebook.data:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/data/AIRFacebookGameRequestActionType" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.data:AIRFacebookGameRequestActionType"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/data/AIRFacebookGameRequestFilter" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.data:AIRFacebookGameRequestFilter"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/data/AIRFacebookLinkParameter" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.data:AIRFacebookLinkParameter"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/data/BasicUserProfile" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.data:BasicUserProfile"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/data/ExtendedUserProfile" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.data:ExtendedUserProfile"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:BasicUserProfile" type="i"/>
+                <dep id="com.marpies.ane.facebook.data:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/data/ns_airfacebook_internal" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.data:ns_airfacebook_internal"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookAppEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookAppEvent"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookBasicUserProfileEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookBasicUserProfileEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:BasicUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookCachedAccessTokenEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookCachedAccessTokenEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookCancellableEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookCancellableEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookDeferredAppLinkEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookDeferredAppLinkEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookLinkParameter" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookExtendedUserProfileEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookExtendedUserProfileEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ExtendedUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookGameRequestEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookGameRequestEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookCancellableEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookGameRequestInvokeEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookGameRequestInvokeEvent"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="flash.net:URLVariables" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookLoginEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookLoginEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookCancellableEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookLogoutEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookLogoutEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookCancellableEvent" type="i"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookOpenGraphEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookOpenGraphEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookShareEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookShareEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookCancellableEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookUserFriendsEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookUserFriendsEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ExtendedUserProfile" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookUserGameRequestsEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookUserGameRequestsEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookGameRequest" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/AIRFacebookUserProfilePictureEvent" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:AIRFacebookUserProfilePictureEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookEvent" type="i"/>
+                <dep id="com.marpies.ane.facebook.events:ns_airfacebook_internal" type="n"/>
+                <dep id="flash.display:Bitmap" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/events/ns_airfacebook_internal" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.events:ns_airfacebook_internal"/>
+            </script>
+            <script name="com/marpies/ane/facebook/games/AIRFacebookGameRequests" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.games:AIRFacebookGameRequests"/>
+                <dep id="ArgumentError" type="e"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook:AIRFacebookListenerMap" type="i"/>
+                <dep id="com.marpies.ane.facebook:IAIRFacebook" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookGameRequest" type="e"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookGameRequestActionType" type="e"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookGameRequestFilter" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookGameRequestEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookGameRequestInvokeEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookUserGameRequestsEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.games:IAIRFacebookGameRequests" type="i"/>
+                <dep id="com.marpies.ane.facebook.games:ns_airfacebook_internal" type="e"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookGameRequestInvokeListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookGameRequestListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookOpenGraphListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookUserGameRequestsListener" type="s"/>
+                <dep id="flash.desktop:NativeApplication" type="e"/>
+                <dep id="flash.events:InvokeEvent" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.net:URLVariables" type="e"/>
+                <dep id="int" type="e"/>
+                <dep id="uint" type="e"/>
+            </script>
+            <script name="com/marpies/ane/facebook/games/IAIRFacebookGameRequests" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.games:IAIRFacebookGameRequests"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookGameRequestInvokeListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookGameRequestListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookOpenGraphListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookUserGameRequestsListener" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/marpies/ane/facebook/games/ns_airfacebook_internal" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.games:ns_airfacebook_internal"/>
+            </script>
+            <script name="com/marpies/ane/facebook/graph/AIRFacebookOpenGraph" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.graph:AIRFacebookOpenGraph"/>
+                <dep id="ArgumentError" type="e"/>
+                <dep id="Array" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="e"/>
+                <dep id="com.marpies.ane.facebook:AIRFacebookListenerMap" type="i"/>
+                <dep id="com.marpies.ane.facebook:IAIRFacebook" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookOpenGraphEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.graph:IAIRFacebookOpenGraph" type="i"/>
+                <dep id="com.marpies.ane.facebook.graph:ns_airfacebook_internal" type="e"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookOpenGraphListener" type="s"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/graph/IAIRFacebookOpenGraph" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.graph:IAIRFacebookOpenGraph"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookOpenGraphListener" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/graph/ns_airfacebook_internal" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.graph:ns_airfacebook_internal"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookAppInviteListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookAppInviteListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookBasicUserProfileListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookBasicUserProfileListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="com.marpies.ane.facebook.data:BasicUserProfile" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookCachedAccessTokenListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookCachedAccessTokenListener"/>
+                <dep id="Object" type="i"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookDeferredAppLinkListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookDeferredAppLinkListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookLinkParameter" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookExtendedUserProfileListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookExtendedUserProfileListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ExtendedUserProfile" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookGameRequestInvokeListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookGameRequestInvokeListener"/>
+                <dep id="Array" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="flash.net:URLVariables" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookGameRequestListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookGameRequestListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookLoginListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookLoginListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookLogoutListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookLogoutListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookOpenGraphListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookOpenGraphListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookSDKInitListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookSDKInitListener"/>
+                <dep id="Object" type="i"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookShareListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookShareListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookUserFriendsListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookUserFriendsListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:ExtendedUserProfile" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookUserGameRequestsListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookUserGameRequestsListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.marpies.ane.facebook.data:AIRFacebookGameRequest" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/listeners/IAIRFacebookUserProfilePictureListener" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.listeners:IAIRFacebookUserProfilePictureListener"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.display:Bitmap" type="s"/>
+            </script>
+            <script name="com/marpies/ane/facebook/ns_airfacebook_internal" mod="1612188190000">
+                <def id="com.marpies.ane.facebook:ns_airfacebook_internal"/>
+            </script>
+            <script name="com/marpies/ane/facebook/share/AIRFacebookShare" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.share:AIRFacebookShare"/>
+                <dep id="ArgumentError" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="e"/>
+                <dep id="com.marpies.ane.facebook:AIRFacebookListenerMap" type="i"/>
+                <dep id="com.marpies.ane.facebook:IAIRFacebook" type="s"/>
+                <dep id="com.marpies.ane.facebook.events:AIRFacebookShareEvent" type="e"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookAppInviteListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookShareListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.share:IAIRFacebookShare" type="i"/>
+                <dep id="com.marpies.ane.facebook.share:ns_airfacebook_internal" type="e"/>
+                <dep id="flash.display:BitmapData" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="e"/>
+            </script>
+            <script name="com/marpies/ane/facebook/share/IAIRFacebookShare" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.share:IAIRFacebookShare"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookAppInviteListener" type="s"/>
+                <dep id="com.marpies.ane.facebook.listeners:IAIRFacebookShareListener" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+            </script>
+            <script name="com/marpies/ane/facebook/share/ns_airfacebook_internal" mod="1612188190000">
+                <def id="com.marpies.ane.facebook.share:ns_airfacebook_internal"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="e23dbdcba7b8a2004c57ac95c82e557278145136a65f021c71f607d439e9d5cc"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

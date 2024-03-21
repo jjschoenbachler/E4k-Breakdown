@@ -1,0 +1,11 @@
+<platform xmlns="http://ns.adobe.com/air/extension/22.0">
+	<packagedDependencies>
+		<packagedDependency>ANE-GoodgameStudios.OTPublishersSDK-release-6.15.0.jar</packagedDependency>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.onetrust.otpublisherssdk</packageName>
+			<folderName>com.onetrust.otpublisherssdk.res-OTPublishersSDK-release</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

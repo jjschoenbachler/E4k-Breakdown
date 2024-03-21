@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="1234 "/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/goodgamestudios/ane/GoogleAndroidDependencies/GoogleAndroidDependencies" mod="1572362709000">
+                <def id="com.goodgamestudios.ane.GoogleAndroidDependencies:GoogleAndroidDependencies"/>
+                <dep id="Error" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="a11d373447dc4f14f20789e012fa9d2a419e06c9abae519291e13be3d8fda868"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

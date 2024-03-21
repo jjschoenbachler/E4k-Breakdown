@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_cd0a3a5c1cadf349418e155cf6cfb97d38a515209abc7ac3456b1bd562871c2b_flash_display_Sprite" mod="1435762432535" signatureChecksum="1529576331" >
+        <def id="_cd0a3a5c1cadf349418e155cf6cfb97d38a515209abc7ac3456b1bd562871c2b_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+      </script>
+      <script name="com/hasoffers/nativeExtensions/GAID/GAID" mod="1424347456000" signatureChecksum="1231588011" >
+        <def id="com.hasoffers.nativeExtensions.GAID:GAID" /> 
+        <dep id="com.hasoffers.nativeExtensions.GAID:NativeMethods" type="e" /> 
+        <dep id="trace" type="e" /> 
+        <dep id="com.hasoffers.nativeExtensions.GAID:SingletonEnforcer" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="com.hasoffers.nativeExtensions.GAID:SingletonEnforcer" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+      </script>
+      <script name="com/hasoffers/nativeExtensions/GAID/NativeMethods" mod="1424347456000" signatureChecksum="2235183303" >
+        <def id="com.hasoffers.nativeExtensions.GAID:NativeMethods" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <script name="com/hasoffers/nativeExtensions/GAID/SingletonEnforcer" mod="1424347456000" signatureChecksum="1158098059" >
+        <def id="com.hasoffers.nativeExtensions.GAID:SingletonEnforcer" /> 
+        <dep id="AS3" type="n" /> 
+        <dep id="Object" type="i" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="3ea5118f176123fa039982108fd6aafbaa7173ec6c3bdfac712a7c6fdfc96692"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

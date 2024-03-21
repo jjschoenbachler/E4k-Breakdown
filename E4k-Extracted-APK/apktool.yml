@@ -1,0 +1,75 @@
+version: 2.9.3
+apkFileName: empire.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 19
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 4071013
+  versionName: 4.71.13
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  stamp-cert-sha256: 8
+  com/appsflyer/internal/a-: 0
+  com/appsflyer/internal/b-: 0
+doNotCompress:
+- resources.arsc
+- assets/EmpireFourKingdoms.swf
+- assets/Preloader.swf
+- assets/META-INF/AIR/extensions/com.appsflyer.adobeair/library.swf
+- assets/META-INF/AIR/extensions/com.appsflyer.adobeair/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.bugsnag.ANEBugsnag/library.swf
+- assets/META-INF/AIR/extensions/com.bugsnag.ANEBugsnag/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.freshplanet.AirPushNotification/library.swf
+- assets/META-INF/AIR/extensions/com.freshplanet.AirPushNotification/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.freshplanet.ane.AirInAppPurchase/library.swf
+- assets/META-INF/AIR/extensions/com.freshplanet.ane.AirInAppPurchase/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.goodgamestudios.ane.GoogleAndroidDependencies/library.swf
+- assets/META-INF/AIR/extensions/com.goodgamestudios.ane.GoogleAndroidDependencies/META-INF/ANE/Android-ARM64/library.swf
+- png
+- assets/META-INF/AIR/extensions/com.goodgamestudios.ane.firebase/library.swf
+- assets/META-INF/AIR/extensions/com.goodgamestudios.ane.firebase/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.goodgamestudios.core.AirNetworkInfo/library.swf
+- assets/META-INF/AIR/extensions/com.goodgamestudios.core.AirNetworkInfo/META-INF/ANE/default/library.swf
+- assets/META-INF/AIR/extensions/com.goodgamestudios.extension/library.swf
+- assets/META-INF/AIR/extensions/com.goodgamestudios.extension/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.hasoffers.GAID/library.swf
+- assets/META-INF/AIR/extensions/com.hasoffers.GAID/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.admob/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.admob/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.applovin/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.applovin/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.applovinsdk/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.applovinsdk/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.facebook/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.facebook/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.fbaudiencenetwork/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.fbaudiencenetwork/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.unityads/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.unityads/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.unityadssdk/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair.unityadssdk/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair/library.swf
+- assets/META-INF/AIR/extensions/com.ironsource.adobeair/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.marpies.ane.facebook/library.swf
+- assets/META-INF/AIR/extensions/com.marpies.ane.facebook/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.myflashlab.air.extensions.dependency.overrideAir/library.swf
+- assets/META-INF/AIR/extensions/com.myflashlab.air.extensions.dependency.overrideAir/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/com.myflashlab.air.extensions.richWebView/library.swf
+- assets/META-INF/AIR/extensions/com.myflashlab.air.extensions.richWebView/META-INF/ANE/Android-ARM64/library.swf
+- assets/META-INF/AIR/extensions/pl.mateuszmackowiak.nativeANE.NativeDialogs/library.swf
+- assets/META-INF/AIR/extensions/pl.mateuszmackowiak.nativeANE.NativeDialogs/META-INF/ANE/Android-ARM64/library.swf
+- gif
+- res/raw/debuginfo
+- jpg
+- res/raw/rgba8888
+- res/raw/startga.html

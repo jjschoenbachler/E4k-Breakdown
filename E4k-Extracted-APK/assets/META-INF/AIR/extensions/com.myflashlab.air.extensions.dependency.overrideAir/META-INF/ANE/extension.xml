@@ -1,0 +1,47 @@
+<extension xmlns="http://ns.adobe.com/air/extension/29.0">
+  <id>com.myflashlab.air.extensions.dependency.overrideAir</id>
+  <versionNumber>6.2.0</versionNumber>
+  <copyright>2019, MyFlashLabs.com All rights reserved.</copyright>
+  <description>
+		<text xml:lang="en">Air Native Extension!</text> 
+  </description> 
+  <platforms>
+  
+    <platform name="Android-ARM64">
+		<applicationDeployment>
+			<nativeLibrary>classes.jar</nativeLibrary>
+			<initializer>com.myflashlab.dependency.overrideAir.MyExtension</initializer>
+			<finalizer>com.myflashlab.dependency.overrideAir.MyExtension</finalizer>
+		</applicationDeployment>
+    </platform>
+  
+    <platform name="Android-ARM">
+		<applicationDeployment>
+			<nativeLibrary>classes.jar</nativeLibrary>
+			<initializer>com.myflashlab.dependency.overrideAir.MyExtension</initializer>
+			<finalizer>com.myflashlab.dependency.overrideAir.MyExtension</finalizer>
+		</applicationDeployment>
+    </platform>
+	
+	<platform name="Android-x86">
+		<applicationDeployment>
+			<nativeLibrary>classes.jar</nativeLibrary>
+			<initializer>com.myflashlab.dependency.overrideAir.MyExtension</initializer>
+			<finalizer>com.myflashlab.dependency.overrideAir.MyExtension</finalizer>
+		</applicationDeployment>
+    </platform>
+	
+	<platform name="iPhone-ARM">
+		<applicationDeployment>
+			<nativeLibrary>libexOverrideNative.a</nativeLibrary>
+			<initializer>comMyflashlabsOverrideMyExtensionInitializer</initializer>
+			<finalizer>comMyflashlabsOverrideMyExtensionFinalizer</finalizer>
+		</applicationDeployment>
+	</platform>
+	
+	<platform name="default"> 
+		<applicationDeployment/>
+	</platform> 
+	
+  </platforms>
+</extension>

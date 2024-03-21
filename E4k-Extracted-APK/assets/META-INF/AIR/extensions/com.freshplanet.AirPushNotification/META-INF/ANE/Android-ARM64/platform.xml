@@ -1,0 +1,10 @@
+<platform xmlns="http://ns.adobe.com/air/extension/22.0">
+	<packagedDependencies>
+	</packagedDependencies>
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.google.firebase</packageName>
+			<folderName>air.com.goodgamestudios.empirefourkingdoms-res-firebase</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>

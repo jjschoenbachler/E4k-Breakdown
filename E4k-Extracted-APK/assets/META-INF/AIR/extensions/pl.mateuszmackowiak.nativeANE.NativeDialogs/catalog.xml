@@ -1,0 +1,215 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="1234 "/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/NativeAlertDialog" mod="1694713378000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs:NativeAlertDialog"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/NativeDatePickerDialog" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs:NativeDatePickerDialog"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Date" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/NativeListDialog" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs:NativeListDialog"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="NaN" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.events:NativeDialogListEvent" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/NativePickerDialog" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs:NativePickerDialog"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:PickerList" type="s"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.events:NativeDialogListEvent" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/NativeProgressDialog" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs:NativeProgressDialog"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="NaN" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/NativeTextInputDialog" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs:NativeTextInputDialog"/>
+                <dep id="Array" type="e"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="flash.events:Event" type="e"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.events:TextEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:AbstractNativeDialog" type="i"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:NativeTextField" type="s"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.events:NativeDialogEvent" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="s"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/support/AbstractNativeDialog" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs.support:AbstractNativeDialog"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Math" type="e"/>
+                <dep id="Number" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:ErrorEvent" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="flash.utils:Dictionary" type="e"/>
+                <dep id="flash.utils:getQualifiedClassName" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs.support:iNativeDialog" type="i"/>
+                <dep id="pl.mateuszmackowiak.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/support/NativeTextField" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs.support:NativeTextField"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs:NativeTextInputDialog" type="s"/>
+                <dep id="pl.mateuszmackowiak.nativeANE:nativeDialogNamespace" type="n"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/support/PickerList" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs.support:PickerList"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="Number" type="s"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="TypeError" type="e"/>
+                <dep id="__AS3__.vec:Vector" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs:NativePickerDialog" type="s"/>
+                <dep id="pl.mateuszmackowiak.nativeANE:nativeDialogNamespace" type="n"/>
+                <dep id="trace" type="e"/>
+                <dep id="uint" type="e"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/dialogs/support/iNativeDialog" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.dialogs.support:iNativeDialog"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:IEventDispatcher" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/events/NativeDialogEvent" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.events:NativeDialogEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/events/NativeDialogListEvent" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.events:NativeDialogListEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/nativeDialogNamespace" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE:nativeDialogNamespace"/>
+            </script>
+            <script name="pl/mateuszmackowiak/nativeANE/notifications/Toast" mod="1642413271000">
+                <def id="pl.mateuszmackowiak.nativeANE.notifications:Toast"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="isNaN" type="e"/>
+                <dep id="pl.mateuszmackowiak.nativeANE.dialogs:NativeAlertDialog" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="df5372e74934202bf53f568bd031be80dd5d8746dfacaac489e04bc725a21fe7"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

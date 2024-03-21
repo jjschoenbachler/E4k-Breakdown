@@ -1,0 +1,38 @@
+<extension xmlns="http://ns.adobe.com/air/extension/22.0">
+  <id>com.goodgamestudios.extension</id>
+  <versionNumber>1.0</versionNumber>
+  <platforms>
+	<platform name="iPhone-ARM">
+        <applicationDeployment>
+            <nativeLibrary>libGoodGameStudiosExtension.a</nativeLibrary>
+            <initializer>GoodGameExtInitializer</initializer>
+            <finalizer>GoodGameExtFinalizer</finalizer>
+        </applicationDeployment>
+    </platform>
+   <platform name="Android-ARM"> 
+        <applicationDeployment> 
+            <nativeLibrary>libGoodGameStudiosExtension.jar</nativeLibrary> 
+            <initializer>com.goodgamestudios.extension.GoodGameStudiosExtension</initializer> 
+            <finalizer>com.goodgamestudios.extension.GoodGameStudiosExtension</finalizer> 
+        </applicationDeployment>
+    </platform>
+   <platform name="Android-ARM64">
+       <applicationDeployment>
+           <nativeLibrary>libGoodGameStudiosExtension.jar</nativeLibrary>
+           <initializer>com.goodgamestudios.extension.GoodGameStudiosExtension</initializer>
+           <finalizer>com.goodgamestudios.extension.GoodGameStudiosExtension</finalizer>
+       </applicationDeployment>
+   </platform>
+	<platform name="Android-x86"> 
+        <applicationDeployment> 
+            <nativeLibrary>libGoodGameStudiosExtension.jar</nativeLibrary> 
+            <initializer>com.goodgamestudios.extension.GoodGameStudiosExtension</initializer> 
+            <finalizer>com.goodgamestudios.extension.GoodGameStudiosExtension</finalizer> 
+        </applicationDeployment>
+    </platform>
+    
+    <platform name="default"> 
+        <applicationDeployment/> 
+    </platform> 
+  </platforms>
+</extension>

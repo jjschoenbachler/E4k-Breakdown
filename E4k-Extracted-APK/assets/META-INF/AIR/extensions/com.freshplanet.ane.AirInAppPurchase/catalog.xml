@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="1234 "/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/freshplanet/ane/AirInAppPurchase/InAppPurchase" mod="1628778185000">
+                <def id="com.freshplanet.ane.AirInAppPurchase:InAppPurchase"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Object" type="e"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="e"/>
+                <dep id="com.freshplanet.ane.AirInAppPurchase:InAppPurchaseEvent" type="e"/>
+                <dep id="com.freshplanet.ane.AirInAppPurchase:InAppPurchaseProrationMode" type="s"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/freshplanet/ane/AirInAppPurchase/InAppPurchaseEvent" mod="1629718654000">
+                <def id="com.freshplanet.ane.AirInAppPurchase:InAppPurchaseEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="com/freshplanet/ane/AirInAppPurchase/InAppPurchaseProrationMode" mod="1627569929000">
+                <def id="com.freshplanet.ane.AirInAppPurchase:InAppPurchaseProrationMode"/>
+                <dep id="Class" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/freshplanet/ane/AirInAppPurchase/InAppPurchaseSkuType" mod="1628518555000">
+                <def id="com.freshplanet.ane.AirInAppPurchase:InAppPurchaseSkuType"/>
+                <dep id="Class" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="78b662cc14f12795667a5ae7ea13a510665c4b44a6becb9b7851f39f034bf038"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

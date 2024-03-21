@@ -1,0 +1,97 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354209"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="com/bugsnag/Bugsnag" mod="1547463255000">
+                <def id="com.bugsnag:Bugsnag"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="JSON" type="e"/>
+                <dep id="Math" type="e"/>
+                <dep id="Namespace" type="e"/>
+                <dep id="Object" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="XML" type="e"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.bugsnag:Metadata" type="s"/>
+                <dep id="com.bugsnag:ReleaseStage" type="e"/>
+                <dep id="com.bugsnag:RequestQueue" type="e"/>
+                <dep id="com.bugsnag:StackTraceLine" type="e"/>
+                <dep id="com.bugsnag:StackTraceParser" type="e"/>
+                <dep id="flash.desktop:NativeApplication" type="e"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:UncaughtErrorEvent" type="s"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="flash.net:URLRequest" type="e"/>
+                <dep id="flash.net:URLRequestMethod" type="e"/>
+                <dep id="flash.system:Capabilities" type="e"/>
+                <dep id="trace" type="e"/>
+                <dep id="undefined" type="e"/>
+            </script>
+            <script name="com/bugsnag/Metadata" mod="1547463228000">
+                <def id="com.bugsnag:Metadata"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/bugsnag/ReleaseStage" mod="1547463228000">
+                <def id="com.bugsnag:ReleaseStage"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/bugsnag/RequestQueue" mod="1547463255000">
+                <def id="com.bugsnag:RequestQueue"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Error" type="e"/>
+                <dep id="Function" type="s"/>
+                <dep id="Math" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="__AS3__.vec:Vector" type="s"/>
+                <dep id="com.bugsnag:Bugsnag" type="e"/>
+                <dep id="flash.events:Event" type="s"/>
+                <dep id="flash.events:IOErrorEvent" type="e"/>
+                <dep id="flash.filesystem:File" type="e"/>
+                <dep id="flash.filesystem:FileMode" type="e"/>
+                <dep id="flash.filesystem:FileStream" type="e"/>
+                <dep id="flash.net:URLLoader" type="s"/>
+                <dep id="flash.net:URLRequest" type="s"/>
+                <dep id="flash.net:registerClassAlias" type="e"/>
+                <dep id="flash.utils:ByteArray" type="e"/>
+                <dep id="flash.utils:setTimeout" type="e"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <script name="com/bugsnag/Severity" mod="1547463228000">
+                <def id="com.bugsnag:Severity"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+            </script>
+            <script name="com/bugsnag/StackTraceLine" mod="1547463228000">
+                <def id="com.bugsnag:StackTraceLine"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="int" type="s"/>
+            </script>
+            <script name="com/bugsnag/StackTraceParser" mod="1547463228000">
+                <def id="com.bugsnag:StackTraceParser"/>
+                <dep id="Array" type="e"/>
+                <dep id="Object" type="i"/>
+                <dep id="String" type="s"/>
+                <dep id="com.bugsnag:StackTraceLine" type="e"/>
+                <dep id="int" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="3533847e7b2440ccedccf801d55125251910b71178c54171528850f186cc08fa"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

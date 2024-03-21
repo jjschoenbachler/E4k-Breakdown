@@ -1,0 +1,12 @@
+<platform xmlns="http://ns.adobe.com/air/extension/29.0">
+    
+    
+
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.myflashlab.dependency.overrideAir</packageName>
+			<folderName>com.myflashlab.dependency.overrideAir-res</folderName>
+		</packagedResource>
+	</packagedResources>
+	
+</platform>

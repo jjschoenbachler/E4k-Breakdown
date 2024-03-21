@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+    <versions>
+        <swc version="1.2"/>
+        <compiler name="ActionScript Compiler" version="2.0.0" build="354209"/>
+    </versions>
+    <features>
+        <feature-script-deps/>
+    </features>
+    <libraries>
+        <library path="library.swf">
+            <script name="AppsFlyerEvent" mod="1594542118158">
+                <def id="AppsFlyerEvent"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:Event" type="i"/>
+            </script>
+            <script name="AppsFlyerInterface" mod="1616426157771">
+                <def id="AppsFlyerInterface"/>
+                <dep id="AppsFlyerEvent" type="e"/>
+                <dep id="ArgumentError" type="s"/>
+                <dep id="Array" type="s"/>
+                <dep id="Boolean" type="s"/>
+                <dep id="Function" type="s"/>
+                <dep id="String" type="s"/>
+                <dep id="flash.events:EventDispatcher" type="i"/>
+                <dep id="flash.events:StatusEvent" type="e"/>
+                <dep id="flash.external:ExtensionContext" type="s"/>
+                <dep id="int" type="s"/>
+                <dep id="trace" type="e"/>
+            </script>
+            <digests>
+                <digest type="SHA-256" signed="false" value="0f12a6ec7dc6e943312ff2a669f6ef1526db73dd579b51cc9b3bfe37440f9dc8"/>
+            </digests>
+        </library>
+    </libraries>
+</swc>

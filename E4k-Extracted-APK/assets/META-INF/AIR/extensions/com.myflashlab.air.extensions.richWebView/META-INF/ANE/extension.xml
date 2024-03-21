@@ -1,0 +1,145 @@
+<extension xmlns="http://ns.adobe.com/air/extension/30.0">
+  <id>com.myflashlab.air.extensions.richWebView</id>
+  <versionNumber>9.6.0</versionNumber>
+  <copyright>2020, MyFlashLabs Team. All rights reserved.</copyright>
+  <description>
+		<text xml:lang="en">customized adobe air native extension</text> 
+  </description> 
+  <platforms>
+  
+    <platform name="Android-ARM64">
+		<applicationDeployment>
+			<nativeLibrary>classes.jar</nativeLibrary>
+			<initializer>com.myflashlabs.richwebview.MyExtension</initializer>
+			<finalizer>com.myflashlabs.richwebview.MyExtension</finalizer>
+		</applicationDeployment>
+    </platform>
+  
+    <platform name="Android-ARM">
+		<applicationDeployment>
+			<nativeLibrary>classes.jar</nativeLibrary>
+			<initializer>com.myflashlabs.richwebview.MyExtension</initializer>
+			<finalizer>com.myflashlabs.richwebview.MyExtension</finalizer>
+		</applicationDeployment>
+    </platform>
+	
+	<platform name="Android-x86">
+		<applicationDeployment>
+			<nativeLibrary>classes.jar</nativeLibrary>
+			<initializer>com.myflashlabs.richwebview.MyExtension</initializer>
+			<finalizer>com.myflashlabs.richwebview.MyExtension</finalizer>
+		</applicationDeployment>
+    </platform>
+	
+	<platform name="iPhone-ARM">
+		<applicationDeployment>
+			<nativeLibrary>libexRichWebView.a</nativeLibrary>
+			<initializer>comMyflashlabsRWVInitializer</initializer>
+			<finalizer>comMyflashlabsRWVFinalizer</finalizer>
+		</applicationDeployment>
+	</platform>
+	
+	<platform name="default"> 
+		<applicationDeployment/>
+	</platform> 
+	
+  </platforms>
+</extension>
+
+<!-- ANE SETUP
+{
+	"minAirVersion":"30.0",
+	"minSwfVersion":"36",
+	"miniOS":"10.0",
+	"minAndroid":"19",
+	"inputValue":[
+		{
+			"title":"Reason why your app needs location access when app is running",
+			"value":"",
+			"info":"<b>Location access when in use</b><br><br>Reason why your app needs location access when your app is in use.",
+			"shortcode":"[WHEN_IN_USE_LOCATION_ACCESS_DESCRIPTION]"
+		}
+	],
+	"platforms":[
+		{
+			"platform":"android",
+			"prerequirements":[
+				{
+					"id":"com.myflashlab.air.extensions.permissionCheck",
+					"v":"5.0.0"
+				}
+			],
+			"dependencies":[
+				{
+					"id":"com.myflashlab.air.extensions.dependency.overrideAir",
+					"v":"6.2.0"
+				},
+				{
+					"id":"com.myflashlab.air.extensions.dependency.androidx.browser",
+					"v":"1.2.0"
+				}
+			],
+			"manifest":[
+				{
+					"node":"<xml><uses-permission android:name=\"android.permission.INTERNET\"/></xml>",
+					"parent":"manifest",
+					"sibling":""
+				},
+				{
+					"node":"<xml><uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/></xml>",
+					"parent":"manifest",
+					"sibling":""
+				},
+                {
+                    "node":"<xml><uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/></xml>",
+                    "parent":"manifest",
+                    "sibling":""
+                },
+				{
+					"node":"<xml><activity android:name=\"com.myflashlabs.richwebview.Pick\" android:theme=\"@style/Theme.Transparent\"/></xml>",
+					"parent":"manifest.application",
+					"sibling":""
+				},
+				{
+					"node":"<xml><receiver android:name=\"com.myflashlabs.richwebview.ChromeTabActionBroadcastReceiver\"/></xml>",
+					"parent":"manifest.application",
+					"sibling":""
+				}
+			],
+			"applicationAtt":[
+				{
+					"name":"hardwareAccelerated",
+					"value":"true"
+				}
+			]
+		},
+		{
+			"platform":"ios",
+			"prerequirements":[
+				{
+					"id":"com.myflashlab.air.extensions.permissionCheck",
+					"v":"5.0.0"
+				}
+			],
+			"dependencies":[
+				{
+					"id":"com.myflashlab.air.extensions.dependency.overrideAir",
+					"v":"6.2.0"
+				}
+			],
+			"inputMultiple":[
+				{
+					"title":"NSAllowsArbitraryLoads to allow \"http\" access on iOS",
+					"checked":false,
+					"node":"<InfoAdditions><key>NSAppTransportSecurity</key><dict><key>NSAllowsArbitraryLoads</key><true/></dict></InfoAdditions>"
+				},
+				{
+					"title":"When in use location access permission",
+					"checked":false,
+					"node":"<InfoAdditions><key>NSLocationWhenInUseUsageDescription</key><string>[WHEN_IN_USE_LOCATION_ACCESS_DESCRIPTION]</string></InfoAdditions>"
+				}
+			]
+		}
+	]
+}
+-->

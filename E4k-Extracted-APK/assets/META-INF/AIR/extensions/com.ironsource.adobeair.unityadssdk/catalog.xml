@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.6.0" build="23201" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/ironsource/adobeair/IronSourceBannerSize" mod="1582535728000" signatureChecksum="3924460779" >
+        <def id="com.ironsource.adobeair:IronSourceBannerSize" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/ironsource/adobeair/IronSource" mod="1604388086000" signatureChecksum="216201850" >
+        <def id="com.ironsource.adobeair:IronSource" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="com.ironsource.adobeair:IronSourceSegment" type="s" /> 
+        <dep id="com.ironsource.adobeair:IronSourceBannerSize" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="flash.events:DataEvent" type="e" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="JSON" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/ironsource/adobeair/IronSourceSegment" mod="1582535728000" signatureChecksum="3338565849" >
+        <def id="com.ironsource.adobeair:IronSourceSegment" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="_3f11befbb7e8554bcb4c1db36e5dbb721c68324f164273a9de68117ac0878436_flash_display_Sprite" mod="1604388165771" signatureChecksum="3357833869" >
+        <def id="_3f11befbb7e8554bcb4c1db36e5dbb721c68324f164273a9de68117ac0878436_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="15710fd6dc1bc784392f9368834724583044d2cef47e346fb7a06ccab177eb77"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

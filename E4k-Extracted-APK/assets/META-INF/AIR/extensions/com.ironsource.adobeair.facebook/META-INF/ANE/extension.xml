@@ -1,0 +1,34 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.ironsource.adobeair.facebook</id>
+    <versionNumber>4.3.23</versionNumber>
+    <platforms> 
+        <platform name="Android-ARM">
+            <applicationDeployment>
+                <nativeLibrary>facebookadapter.jar</nativeLibrary>
+                <initializer>com.ironsource.adobeair.Facebook</initializer>
+            </applicationDeployment> 
+        </platform>
+        <platform name="Android-ARM64">
+            <applicationDeployment>
+                <nativeLibrary>facebookadapter.jar</nativeLibrary>
+                <initializer>com.ironsource.adobeair.Facebook</initializer>
+            </applicationDeployment> 
+        </platform>
+        <platform name="Android-x86">
+            <applicationDeployment>
+                <nativeLibrary>facebookadapter.jar</nativeLibrary>
+                <initializer>com.ironsource.adobeair.Facebook</initializer>
+            </applicationDeployment> 
+        </platform>
+		<platform name="iPhone-ARM"> 
+            <applicationDeployment> 
+                <nativeLibrary>libfacebook.adobeair.a</nativeLibrary>
+                <initializer>SSAExtensionInitializer</initializer>
+            </applicationDeployment>
+        </platform>
+        
+        <platform name="default">
+            <applicationDeployment/>
+        </platform>
+    </platforms> 
+</extension>

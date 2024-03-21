@@ -1,0 +1,13 @@
+<platform xmlns="http://ns.adobe.com/air/extension/30.0">
+
+	<packagedDependencies>
+		<packagedDependency>aFileChooser.jar</packagedDependency>
+	</packagedDependencies>
+	
+	<packagedResources>
+		<packagedResource>
+			<packageName>com.myflashlabs.richwebview</packageName>
+			<folderName>com.myflashlabs.richwebview-res</folderName>
+		</packagedResource>
+	</packagedResources>
+</platform>
